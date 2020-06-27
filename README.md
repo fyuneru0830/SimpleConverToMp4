@@ -31,3 +31,6 @@ bash changeFormatToMP4.sh
 3. will show the bit rate of current video file
 4. input the bit rate that you want (Recommand same with bit rate ofinput file)
 5. Convert !
+
+
+# Thanks
