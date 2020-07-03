@@ -1,10 +1,6 @@
 #!/bin/sh
-echo -e "\033[1;32mThis script can Change any format video file to mp4 H.264 yuv420p"
-echo -e "\033[0;33mMade by ZShin"
-echo -e "\033[0;33mhttps://www.zshin.com"
-echo "--------------------"
-echo -e -n "\033[0;39m"
-echo -e -n "\033[1;34mvideo file path(MacOS can drop file to this window):\033[0;39m"
+echo This script can change  to mp4 H.264 yuv420p from any format video file.
+echo -n video file path:
 read PATH
 /usr/local/bin/ffmpeg -i "$PATH"
 #echo -e -n "\033[1;33mSource video "
